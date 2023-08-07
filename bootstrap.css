@@ -1,0 +1,502 @@
+@font-face {
+  font-family: dd22;
+  src: url(dd.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-bg {
+  background-color: #1a1a1a;
+}
+
+/* -----------------------------------------navbar section  start---------------------------------------------------------- */
+
+#navbar-portfolio {
+  font-family: dd22;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-list-hover-font {
+  font-family: dd22;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: white;
+}
+
+.navbar-nav a:hover {
+  background-color: #aca9a9;
+  color: rgb(39, 172, 172);
+}
+
+#colorpurple {
+  background: #1a1a1a;
+}
+
+#intro-head {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+#intro-para {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  line-height: 1.7rem;
+  color: white;
+  font-family: dd22;
+}
+
+#btn-color {
+  color: white;
+}
+
+/* -----------------------------------------navbar section  start---------------------------------------------------------- */
+
+/* ===============================================  skill secton start  ================================================== */
+
+.header-skill {
+  font-family: dd22;
+  font-size: 1.9rem;
+  font-weight: 550;
+  text-shadow: 2px 2px 1px rgb(101, 232, 164);
+  color: rgb(255, 255, 255);
+}
+
+.skill-div {
+  color: white;
+}
+
+.skills-section-main {
+  padding-bottom: 40px;
+  padding-top: 0;
+  background-color: #1a1a1a;
+}
+
+#progress-header {
+  margin: 4px;
+  font-size: 1rem;
+  font-family: dd22;
+  color: white;
+}
+
+.progress-header-main-div {
+  width: 200px;
+  margin: 60px auto;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+  color: #a73131;
+}
+
+.progress-header-main-div li {
+  margin: 20px 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.progres-bar {
+  background: rgb(149, 227, 170);
+  display: block;
+  height: 20px;
+  border: 1px solid 3px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 25, 1);
+}
+
+.progres-bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.22), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.progres-bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(16, 194, 63) 0%, rgb(6, 116, 241));
+}
+
+.progress-html {
+  width: 95%;
+  animation: progress-html 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.progress-css {
+  width: 83%;
+  animation: progress-css 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.progress-js {
+  width: 45%;
+  animation: progress-js 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.progress-py {
+  width: 40%;
+  animation: progress-py 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 83%;
+  }
+}
+
+@keyframes progress-js {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 45%;
+  }
+}
+
+@keyframes progress-py {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
+.progress-boot {
+  width: 80%;
+  animation: progress-boot 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.progress-react {
+  width: 30%;
+  animation: progress-react 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.progress-tw {
+  width: 60%;
+  animation: progress-tw 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+.progress-bulma {
+  width: 73%;
+  animation: progress-bulma 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes progress-boot {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes progress-react {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes progress-tw {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes progress-bulma {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 73%;
+  }
+}
+
+#progress-header-main {
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: dd22;
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+/* -----------------------------------------progress bar/skill ends here ---------------------------------------------- */
+
+/* ----------------------------------------------mobile section start -------------------------------------------- */
+
+.card-box :hover {
+  box-shadow: rgb(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#h1-hero {
+  font-size: larger;
+  font-family: dd22;
+  font-weight: 600;
+}
+
+#para-hero {
+  font-family: dd22;
+  font-weight: 600;
+}
+
+.text-color-all {
+  color: white;
+}
+
+/* ==================================================mpbile section ends here ======================================= */
+
+/* ----------------------------form sec ------------------------ */
+
+.formsection {
+  width: 50%;
+}
+
+/* =================================form sec ends here =============================== */
+
+/* --------------------footer section------------------------------------------------------------------- */
+
+.bg-color {
+  background-color: #1e1e1e;
+}
+
+.footer-para {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.bg-footer-color {
+  background-color: #1e1e1e;
+}
+
+/* --------------------footer end------------------------------------------------------------------- */
+
+/* =========================intro btn ======================================== */
+
+.btn-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  overflow: hidden;
+  height: 3rem;
+  background-size: 300% 300%;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+  transition: 0.5s;
+  animation: gradient_301 5s ease infinite;
+  border: double 4px transparent;
+  background-image: linear-gradient(#212121, #212121),
+    linear-gradient(
+      137.48deg,
+      #1e95df 10%,
+      #33e044 45%,
+      #1ee4ee 67%,
+      #f2c617 87%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+#container-stars {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+}
+
+strong {
+  z-index: 2;
+  font-family: "Avalors Personal Use";
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 4px white;
+}
+
+#glow {
+  position: absolute;
+  display: flex;
+  width: 12rem;
+}
+
+.circle {
+  width: 100%;
+  height: 30px;
+  filter: blur(2rem);
+  animation: pulse_3011 4s infinite;
+  z-index: -1;
+}
+
+.circle:nth-of-type(1) {
+  background: rgba(18, 219, 249, 0.636);
+}
+
+.circle:nth-of-type(2) {
+  background: rgba(234, 201, 33, 0.704);
+}
+
+.btn-btn:hover #container-stars {
+  z-index: 1;
+  background-color: #212121;
+}
+
+.btn-btn:hover {
+  transform: scale(1.1);
+}
+
+.btn-btn:active {
+  border: double 4px #6dfe53;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  animation: none;
+}
+
+.btn-btn:active .circle {
+  background: #fe53bb;
+}
+
+#stars {
+  position: relative;
+  background: transparent;
+  width: 200rem;
+  height: 200rem;
+}
+
+#stars::after {
+  content: "";
+  position: absolute;
+  top: -10rem;
+  left: -100rem;
+  width: 100%;
+  height: 100%;
+  animation: animStarRotate 90s linear infinite;
+}
+
+#stars::after {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+}
+
+#stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 170%;
+  height: 500%;
+  animation: animStar 60s linear infinite;
+}
+
+#stars::before {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+  opacity: 0.5;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-135rem);
+  }
+}
+
+@keyframes animStarRotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes gradient_301 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse_3011 {
+  0% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+/* end itro btn ============================================================================= */
