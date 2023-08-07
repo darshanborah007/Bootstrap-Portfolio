@@ -16,6 +16,14 @@ html {
   background-color: #1a1a1a;
 }
 
+.para-newsletter{
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
 /* -----------------------------------------navbar section  start---------------------------------------------------------- */
 
 #navbar-portfolio {
